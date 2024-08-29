@@ -1,0 +1,56 @@
+h1{
+    color: red;
+}
+
+.pug{
+    width: auto;
+    height: 700px;
+}
+
+section{
+    display: flex;
+    flex: 1;
+    
+    
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+fieldset{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3, auto);   
+    gap: 10px;
+    
+
+}
+
+input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+}
+
+input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+input[type="password"]:invalid {
+    border-color: red;
+}
+
+
+
+
+
+
